@@ -1,15 +1,20 @@
-# TOPi - Full Stack Developer Test
+# TOPi - Mobile Developer Test
 
 ## Goal
-- To develop a web application able to display a grid with the most starred repositories of a language in github. 
+- To develop a mobile application able to display a table with the most starred repositories of a language in github. 
 - The URL with the repos: https://api.github.com/search/repositories?q=language:Java&sort=stars&page=1
+- If you are testing for an iOS position, you can use Swift and/or Objetive-C. For Android, use Java.
+
+Reference layout:
+
+![Alt text](https://dl.dropboxusercontent.com/s/wkabn63i7zp61t5/layout.png)
 
 ## Required
-- You need to develop both the front-end and the back-end. The language will be defined by the tester
-- Each row of the grid must display at least: the user's photo, repository name, number of stars and the number of forks
+- The layout must work on any iPhone/Android in portrait mode
+- JSON Mapping -> Object
 - At least one unit test
 
 ## Extra Points
-- Mobile friendly
-- Use Bootstrap
-- A cool design
+- Go native (no external libs)
+- Image caching
+- UI Testing
