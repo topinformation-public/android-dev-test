@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Github JavaPop</string>
+    <string name="titulo_erro">Erro</string>
+    <string name="mensagem_erro_desconhecido">Ocorreu um problema ao obter os repositorios. Tente novamente mais tarde.</string>
+    <string name="botao_ok">OK</string>
+    <string name="titulo_sem_conexao">Sem conexão</string>
+    <string name="mensagem_erro_sem_conexao">Não foi possível obter os respositórios. Verifique sua conexão e tente novamente.</string>
+</resources>
